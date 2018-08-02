@@ -1,0 +1,67 @@
+	body{ 
+		background-color: white;
+		}
+.main{
+	width: 30%;
+	height: 500px;
+	background-color: pink;
+	margin:  auto;
+	border: 1px solid #ddd;
+}
+
+h1{
+	color: green;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 20px;
+	text-align: center;
+}
+h2{
+	color: black;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#side{
+	margin: auto;
+	margin: 20px;
+}
+.quizBody{
+	
+	text-align: center;
+}
+#text{
+	padding: 15px 40px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 20px;
+
+}
+.but{
+	padding: 15px 40px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	margin: 5px 10px;
+	background-color: green;
+	color: white;
+	font-size: 15px;
+}
+#reset{
+	padding: 15px 145px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	margin: 5px 10px;
+	background-color: green;
+	color: white;
+	font-size: 15px;
+	margin-top: 15px;
+}
+p{
+ font-size: 20px;
+ color: blue;	
+}
+.winner{
+	color:red;
+	font-weight: bold;
+}
