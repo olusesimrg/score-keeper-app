@@ -4,8 +4,8 @@
 	var p1Button = document.querySelector("#p1");
 	var p2Button = document.getElementById("p2");
 	var resetButton = document.querySelector("#reset");
-	var p1Display = document.querySelector("#p1D");
-	var p2Display = document.querySelector("#p2D");
+	var p1Display = document.querySelector("#player1-display");
+	var p2Display = document.querySelector("#player2-display");
 	var overDisplay = document.querySelector("p");
 	var numInput = document.querySelector("input");
 	var targetValue = document.querySelector("p span");
@@ -34,6 +34,28 @@
 	}
 
 	});
+
+/*
+function playerOne(){
+		if (!gameOver){
+		// incresing player one point on click if game not over
+									p1Score++;
+									if (p1Score === winningScore){
+		// once scores is exactly winning score then game over
+												gameOver = true;
+		// string display and css class
+												overDisplay.textContent = "THE GAME IS OVER";
+												overDisplay.classList.add("winner");
+												p1Display.classList.add("winner");
+												alert("Player one Won the Game");
+																								}
+		// player one display point	
+		p1Display.textContent = p1Score;
+									}
+
+	};
+playerOne()
+*/
 
 		// player two button functions
   p2Button.addEventListener("click", function(){
